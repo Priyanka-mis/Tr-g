@@ -1,0 +1,76 @@
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(/pexels-dana-tentis-118658-370799.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+h1{
+    padding-top: 40px;
+}
+
+
+.main {
+    margin-left: 300px;
+    background-color: white;
+    margin-top: 50px;
+    height: 450px;
+    width: 660px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 30px;
+    
+}
+
+#category{
+    display: none;
+}
+
+
+
+
+#players, #category,  #all-questions {
+    margin-top: 10px;
+    
+}
+
+#categories-container button {
+    margin: 5px;
+}
+
+#buttons-container {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 10px;
+    background-color: rgb(250, 249, 247);
+    border-radius: 10px;
+    text-align: center;
+    font-size:  17px;
+    width: 170px;
+}
+
+
+#player1-answer, #player2-answer{
+    margin-top: 50px;
+    margin-left: 250PX;
+
+    
+}
+
+
+
+

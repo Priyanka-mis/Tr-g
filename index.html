@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="main">
+    <h1>Trivia Game</h1>
+    <div id="players">
+       <span>Player1  </span> <input type="text" id="player1" placeholder="Name1"><br><br>
+       <span>Player2  </span><input type="text" id="player2" placeholder="Name2"><br><br>
+        <button class="start button" onclick="startGame()">Start Game</button>
+    </div>
+
+    
+    <div id="category"><br>
+        <h2>Select Catogory</h2>
+        <select id="choose-category"></select>
+        <br><br>
+        <button class="start button" onclick="fetchQuestions()">Next</button>
+    </div>
+
+   
+
+    <div id="all-questions" style="display: none;">
+        <h2 id="category-title"></h2>
+        <p id="question"></p>
+        <input type="text" id="player1-answer" placeholder="Player 1 Answer">
+        <input type="text" id="player2-answer" placeholder="Player 2 Answer"><br>
+        <button onclick="submitAnswers()" id="submit">Submit Answers</button>
+        <button onclick="nextQuestion()" id="next">Next Question</button>
+    </div>
+
+    <div id="scores">
+        <div id="player1-score">Player 1 Score: 0</div>
+        <div id="player2-score">Player 2 Score: 0</div>
+    </div>
+
+    <div id="results" style="display:none;">
+        <p id="winner"></p>
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+ 
+
+
+
+
+
